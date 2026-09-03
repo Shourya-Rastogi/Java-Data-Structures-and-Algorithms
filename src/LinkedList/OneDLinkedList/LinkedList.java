@@ -1,20 +1,6 @@
 package LinkedList.OneDLinkedList;
 
-class Node{
-    int data;
-    Node nextNode;
 
-    Node(int data,Node node){
-        this.data=data;
-        this.nextNode=node;
-    }
-
-    Node(int data){
-        this.data=data;
-        this.nextNode=null;
-    }
-
-}
 public class LinkedList {
     private static Node convertArr2LL(int[] arr){
         Node head=new Node(arr[0]);
