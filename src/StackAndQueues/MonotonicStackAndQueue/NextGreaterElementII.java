@@ -16,7 +16,7 @@ public class NextGreaterElementII {
             if(i<n ){
                 nge[i]=(st.isEmpty()) ? -1 :st.peek();
             }
-            st.push(nums[i]);
+            st.push(nums[i%n]);
         }
         return nge;
     }
