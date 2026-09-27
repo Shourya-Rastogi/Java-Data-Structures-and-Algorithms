@@ -1,4 +1,6 @@
-package BinaryTrees;
+package BinaryTrees.MediumProblems;
+
+import BinaryTrees.TreeNode;
 
 public class BalancedTreeCheck {
     boolean isBalanced(TreeNode root){
