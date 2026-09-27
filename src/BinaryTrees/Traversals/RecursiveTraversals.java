@@ -1,4 +1,6 @@
-package BinaryTrees;
+package BinaryTrees.Traversals;
+
+import BinaryTrees.TreeNode;
 
 public class RecursiveTraversals {
     private void preorder(TreeNode node){
